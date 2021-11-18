@@ -16,12 +16,14 @@
 .screen{
     max-width: 30rem;
 }
-.screen1{
+.screen-right{
     max-width: 20rem;
+    right: 0;
+    margin-top: 15%;
 }
 .screen1{
     max-width: 20rem;
-    margin-top: 5rem;
+    margin-top: 15%;
 }
 .screen-mini{
     max-width: 8em;
@@ -91,10 +93,10 @@ margin-top: 8rem;
 
 @media screen and (max-width:768px){
     .container-fluid{
-        height: 140vh;
+        height: max-content;
     }
     .UNIT-fluid{
-        height: 160vh;
+        height: max-content;
     }
    
 .icons{
@@ -158,10 +160,11 @@ min-width: 250px;
 @media screen and (max-width:480px){
     .container-fluid {
         margin-top: 20vh;
-        display: flex;  
+        display: flex; 
+        height: max-content; 
     }
     .UNIT-fluid{
-        height: 150vh;
+        height: max-content;
     }
    
     .button{
@@ -209,7 +212,7 @@ margin-right: 5%;
 .ipad{
 
   width: 50%;
-  margin-top: 55%;
+  margin-top: 13rem;
 }
 .unit-gray{
     width: 95%;
@@ -271,7 +274,7 @@ font-size: 10px;
 }
 .ipadFB{
     right: 40px;
-    margin-top: 55%;
+    margin-top: 13rem;
     width: 37%;
 }
 
@@ -293,17 +296,17 @@ font-size: 10px;
     }
 .screen-right{
 max-width:20%;
-margin-top: 65%;
+margin-top: 15rem;
 }
 
 .screen1{
     right: 26%;
     max-width: 20%;
-    margin-top: 65%;
+    margin-top: 15rem;
 }
 .screen2{
-    margin-top: 60%;
-    max-width: 58%;
+    margin-top: 14rem;
+    max-width: 45%;
 }
 .screen-mini1{
 max-width: 5rem;
@@ -340,7 +343,7 @@ margin-top: 5%;
 .screen{
     max-width: 20%;
     right: 20%;
-    margin-top: 55%;
+    margin-top: 12rem;
 }
 .screen-mini{
    margin-top: 0; 
@@ -373,7 +376,7 @@ margin-top: 5%;
     }
 .logo1{
     max-width: 40%;
-    margin-top: 70%;
+    margin-top: 17rem;
 }
 .white{
     color: #fff;
