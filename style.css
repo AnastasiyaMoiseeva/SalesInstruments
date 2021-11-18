@@ -1,0 +1,315 @@
+
+/*титулка, страница1*/
+
+.label {
+    position: absolute;
+   top: 30px;
+    right: 30px;
+    width: 10%;
+  min-width: 50px;
+   max-width: 170px;
+}
+
+.container-fluid{
+display: flex;
+justify-content: center;
+		width: 100%;
+    height: 100vh;
+}
+
+/*левый блок*/
+.container__left{
+    border-right: 1px solid #999;
+   position: relative;
+   width: 60%;
+   padding-top: 10%;
+   padding-left: 5%;
+   padding-right: 5%;
+   margin-right: 20px;
+}
+
+.header{
+ position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(20px + 16 * (100vw / 1280));
+    font-weight: 200;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    font-size: calc(5px + 5 * (100vw / 1280));
+    }
+ 
+/*правый блок +ссылки*/
+
+.container__right{
+  display: flex;
+  justify-content: start;
+  width: 30%;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: 20px;
+}
+
+.contacts{
+    width: 40%;
+    height: 100%;
+}
+
+.icons {
+    border-radius: 15px;
+    box-shadow: -4px 3px 5px 3px #999;
+    width: 95px;
+    margin-bottom: 20px;
+}
+.icons:hover{
+  transition: all 0.3s;
+  transform: scale(1.2);
+  box-shadow: -6px 4px 7px 3px #8b8a8a;
+}
+
+/*первый блок*/
+
+.UNIT-fluid{
+  display: flex;
+  height: 100vh;
+}
+.unit-left1{
+  width: 50%;
+}
+
+.unit__header{
+  padding-top: 20px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(15px + 16 * (100vw / 1280));
+  font-weight: 200;
+  padding-left: 5%;
+}
+
+.unit-gray{
+  margin-top: 60px;
+  margin-bottom: 100px;
+  padding:10px 5%;
+  border-radius:0 15px 15px 0;
+background-color: #999;
+width: 70%;
+font-size: calc(5px + 10 * (100vw / 1280));
+font-weight: 500;
+color: #fff;
+}
+
+.text{
+  padding-left: 5px 3%;
+  margin-bottom: 50px;
+  font-size: calc(5px + 10 * (100vw / 1280));
+}
+.google{
+  padding-left: 3%;
+  margin-bottom: 50px;
+  font-size: calc(5px + 10 * (100vw / 1280));
+}
+.text > h6{
+  font-size: calc(5px + 10 * (100vw / 1280));
+  margin-bottom: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-left: inherit;
+}
+.text-link{
+  width: 40%;
+margin-left: 5%;
+padding-left: 10px;
+  border-left: 3px solid #198b1f;
+  font-size: calc(5px + 10 * (100vw / 1280));
+}
+.button{
+  font-size: 15px;
+  width: -webkit-fill-available;;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #999;
+  border: none;
+  margin: 10px 0;
+  color: #fff;
+  box-shadow: 4px -3px 7px 3px #c7c4c4;
+}
+
+.button:hover{
+  transition: all 0.3s;
+  transform: scale(1.05);
+  box-shadow: 4px -3px 9px 3px #c7c4c4;
+}
+
+
+.qr-codes{
+  margin: 5%;
+
+}
+
+.unit-right--first{
+  width: 50%;
+  background:linear-gradient(to bottom, #fff,#999);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.unit-right{
+  width: 50%;
+  background: #999;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.ipad{
+  position: absolute;
+ margin-top: 10rem;
+right: 0;
+  width: 50%;
+}
+
+/*второй блок*/
+.unit-left2{
+  width: 50%;
+}
+.logo{
+  position: absolute;
+ margin-top: 2rem;
+right: 0;
+}
+.logo1{
+  position: absolute;
+ margin-top: 5rem;
+right: 0;
+}
+
+.logo-mini{
+position: absolute;
+right: 0;
+max-width: 15%;
+
+
+}
+
+/*третий блок*/
+.unit-left3{
+  width: 50%;
+}
+
+.unit-rightFB{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  background: linear-gradient(to bottom, #999,#3b5998);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.screen-mini{
+  position: absolute;
+  right: 0;
+  width: 13em;
+}
+
+/*четвертый блок*/
+.unit-left4{
+  width: 50%;
+}
+
+.ipadFB{
+  position: absolute;
+  margin-top: 5em;
+  width: 35%;
+}
+.screen{
+  position: absolute;
+  margin-top: 5em;
+}
+.screen-right{
+  position: absolute;
+  right: 10em;
+  margin-top: 5em;
+}
+.screen1{
+position: absolute;
+margin-top: 5em;
+
+}
+.screen-mini1{
+  position: absolute;
+ width: 13em;
+ right: 0;
+
+ 
+}
+.unit-rightINST{
+  width: 50%;
+  background: linear-gradient(to bottom, #3b5998,#cf2a8a);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/*пятый блок*/
+.unit-left5{
+  width: 50%;
+}
+.screen2{
+  position: absolute;
+ margin-top: 10rem;
+ right: 0;
+ width: 50%;
+}
+
+.screenborder{
+  border: 2px solid #999;
+  box-shadow: -0px 0px 30px 10px #ffffffe1;
+}
+.screen-mini2{
+  position: absolute;
+ width: 10em;
+ right: 0;
+border-radius: 40px;
+}
+.unit-rightYT{
+  width: 50%;
+  background: linear-gradient(to bottom,#cf2a8a, #be3838);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*шестой блок*/
+.unit-left6{
+  width: 50%;
+}
+.unit-rightTG{
+  width: 50%;
+  background: linear-gradient(to bottom, #be3838,#47cfe7);
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+    justify-content: center;
+}
+
+/*седьмой блок*/
+.unit-left7{
+  width: 50%;
+}
+.unit-rightINTERIOR{
+  width: 50%;
+  background: linear-gradient(to bottom,#47cfe7, #8ee666, #999);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/*восьмой блок*/
+.unit-left8{
+  width: 50%;
+}
+.unit-rightINTER{
+  width: 50%;
+  background: linear-gradient(to bottom, #999, #fff);
+  margin-left: 5%;
+  margin-right: 5%;
+}

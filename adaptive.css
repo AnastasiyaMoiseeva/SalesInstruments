@@ -1,0 +1,401 @@
+@media screen and (max-width:1200px){
+    body{
+        max-width: 100%;
+    }
+.UNIT-fluid{
+    max-width: 100%;
+}
+.logo{
+    max-width: 45%;
+    max-height: 85%;
+}
+.logo-mini{
+    max-width: 8rem;
+}
+
+.screen{
+    max-width: 30rem;
+}
+.screen1{
+    max-width: 20rem;
+}
+.screen1{
+    max-width: 20rem;
+    margin-top: 5rem;
+}
+.screen-mini{
+    max-width: 8em;
+    margin-top: 2rem;
+}
+.screen-mini1{
+    max-width: 8em;
+    margin-top: 2rem;
+}
+.screen-mini2{
+    max-width: 8em;
+    margin-top: 2rem;
+}
+
+.screen-right{
+    max-width: 20rem;
+    right: 0;
+}
+.logo1{
+    max-width: 50%;
+    margin-top: 8rem;
+}
+}
+
+
+@media screen and (max-width:992px){
+.unit-gray {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.icons{
+    max-width: 50px;
+}
+.logo-mini{
+    max-width: 7rem;
+}
+.screen {
+    max-width: 15rem;
+    margin-top: 3em;
+}
+
+.screen1{
+max-width: 15rem;
+margin-top: 8rem;
+}
+.screen-right{
+    max-width: 15rem;
+    margin-top: 8rem;
+}
+.qr-codes{
+    max-width: 120px;
+}
+.button{
+    font-size: 14px;
+}
+.text-link{
+    width: 53%;
+    }
+.screen-mini1{
+    margin-top: 0;
+}
+.screen-mini2{
+    max-width: 7em;
+}
+}
+
+
+@media screen and (max-width:768px){
+    .container-fluid{
+        height: 140vh;
+    }
+    .UNIT-fluid{
+        height: 160vh;
+    }
+   
+.icons{
+    max-width: 50px;
+}
+.qr-codes{
+    max-width: 100px;
+}
+.unit__header{
+    font-size: 20px;
+}
+.unit-gray {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.text{
+    margin-bottom: 0;
+}
+.button{
+    font-size: 14px;
+}
+.logo-mini{
+    max-width: 5rem;
+}
+.screen-mini{
+    max-width: 6em;
+}
+.screen-mini1{
+    max-width: 6em;
+    margin-top: 2rem;
+    right: 8px;
+}
+.screen1{
+    max-width: 11rem;
+    margin-top: 6rem;
+    }
+    .screen-right{
+        max-width: 11rem;
+        margin-top: 6rem;
+        right: 2rem;
+    }
+.screen-mini2{
+    max-width: 4em;
+    border-radius: 25px;
+}
+.screen{
+    max-width: 12rem;
+}
+.screen2{
+margin-top: 7rem;
+max-width: 55%;
+}
+.logo1{
+    margin-top: 6rem;
+}
+.text-link{
+min-width: 250px;
+}
+}
+
+@media screen and (max-width:480px){
+    .container-fluid {
+        margin-top: 20vh;
+        display: flex;  
+    }
+    .UNIT-fluid{
+        height: 150vh;
+    }
+   
+    .button{
+        box-shadow: 4px -3px 11px 2px #fff;
+    }
+  
+.label{
+    position: absolute;
+}
+.container__left {
+    position: relative;
+    width: 60%;
+    border-right: none;
+}
+.container__right {
+ display: flex;
+ justify-content: left;
+}
+.icons{
+    max-width: 60px;
+}
+.contacts{
+width: 40%;
+}
+
+.unit__header{
+    font-size: 25px;
+}
+.unit-right--first{
+position: absolute;
+width: 100%;
+}
+.unit-right{
+    width: 100%;
+    position: absolute;
+}
+.unit-left1{
+position: relative;
+width: 100%;
+background:linear-gradient(to bottom, #fff,#c4c4c4);
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.ipad{
+
+  width: 50%;
+  margin-top: 55%;
+}
+.unit-gray{
+    width: 95%;
+    font-size: 10px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.text{
+    font-size: 12px;
+    padding-left: 0;
+    width: 55%;
+ text-align: left;
+ margin: 50px 0;
+}
+.qr-codes{
+    max-width: 80px;
+}
+.google{
+    width: 100%;
+    text-align: left;
+}
+.text>h6{
+    font-size: 10px;
+    padding-left:1rem;
+    width: 100%;
+ text-align: left;  
+ font-weight: 400;
+color:#fff
+}
+.text-link{
+margin-top: 10%;
+  width: 50%;
+font-size: 10px;
+
+}
+
+.unit-left2{
+    position: relative;
+    width: 100%;
+    background: #c4c4c4;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.logo{
+    position: absolute;
+    width:0;
+}
+.unit-left3{
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to bottom, #c4c4c4,rgb(53, 79, 136,0.7));
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+.unit-rightFB{
+    position: absolute;
+    width: 100%;
+}
+.ipadFB{
+    right: 40px;
+    margin-top: 55%;
+    width: 37%;
+}
+
+.logo-mini{
+    right: 15px;
+    min-width: 15%;
+}
+
+.unit-left4{
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to bottom,rgb(53, 79, 136,0.7),rgb(207, 42, 138,0.7),rgba(214, 46, 46, 0.8)  );
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    .unit-rightINST{
+        position: absolute;
+        width: 100%;
+    }
+.screen-right{
+max-width:20%;
+margin-top: 65%;
+}
+
+.screen1{
+    right: 26%;
+    max-width: 20%;
+    margin-top: 65%;
+}
+.screen2{
+    margin-top: 60%;
+    max-width: 58%;
+}
+.screen-mini1{
+max-width: 5rem;
+margin-top: 0;
+
+
+}
+.unit-left5{
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(214, 46, 46, 0.8),#fff,#0088cc  );
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    .unit-rightYT{
+        position: absolute;
+        width: 100%;
+    }
+    .unit-left6{
+        position: relative;
+        width: 100%;
+        background: linear-gradient(to bottom,#0088cc,#c4c4c4 );
+        margin-left: 5%;
+        margin-right: 5%;
+        }
+        .unit-rightTG{
+            position: absolute;
+            width: 100%;
+        }
+.screen-mini2{
+max-width: 4rem;
+margin-top: 5%;
+}
+.screen{
+    max-width: 20%;
+    right: 20%;
+    margin-top: 55%;
+}
+.screen-mini{
+   margin-top: 0; 
+   max-width: 5rem;
+}
+.unit-left7{
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to bottom, #c4c4c4,#8ee666 );
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    .unit-rightINTERIOR{
+        position: absolute;
+        width: 100%;
+    }
+
+
+
+.unit-left8{
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to bottom,#8ee666, #999, #fff );
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+    .unit-rightINTER{
+        position: absolute;
+        width: 100%;
+    }
+.logo1{
+    max-width: 40%;
+    margin-top: 70%;
+}
+.white{
+    color: #fff;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:320px){
+    .UNIT-fluid{
+        height: 150vh;
+    }
+}
